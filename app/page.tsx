@@ -19,7 +19,6 @@ import { useConnectWallet } from "@privy-io/react-auth";
 import { Button } from "@/components/ui/button";
 import { ButtonGroup } from "@/components/ui/button-group";
 import { truncateAddress } from "@/utils";
-import { useWalletActions } from "@solana/react-hooks";
 import { cn } from "@/lib/utils";
 
 export default function Home() {
